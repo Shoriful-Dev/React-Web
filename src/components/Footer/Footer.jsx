@@ -34,19 +34,16 @@ export default function Footer() {
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
               <ul className="text-gray-500 font-medium">
-                <li className="mb-4">
-                  <a
-                    href="https://github.com/shoriful-dev"
-                    className="hover:underline"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
+              <li className="mb-4">
+                  <Link to="/contact" className="hover:underline">
+                    Contact
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/" className="hover:underline">
-                    Discord
+                  <Link
+                    to="/github" className="hover:underline"
+                  >
+                    Github
                   </Link>
                 </li>
               </ul>
